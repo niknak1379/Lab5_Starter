@@ -28,16 +28,16 @@ function init() {
 function hornChanger() {
     switch (hornType.value) {
         case "air-horn":
-            audioTag.src = '/assets/audio/air-horn.mp3';
-            hornImg.src = '/assets/images/air-horn.svg';
+            audioTag.src = 'assets/audio/air-horn.mp3';
+            hornImg.src = 'assets/images/air-horn.svg';
             break;
         case "car-horn":
-            audioTag.src = '/assets/audio/car-horn.mp3';
-            hornImg.src = '/assets/images/car-horn.svg';
+            audioTag.src = 'assets/audio/car-horn.mp3';
+            hornImg.src = 'assets/images/car-horn.svg';
             break;
         case "party-horn":
-            audioTag.src = '/assets/audio/party-horn.mp3';
-            hornImg.src = '/assets/images/party-horn.svg';
+            audioTag.src = 'assets/audio/party-horn.mp3';
+            hornImg.src = 'assets/images/party-horn.svg';
             break;
         // add as many cases as needed
         default:
